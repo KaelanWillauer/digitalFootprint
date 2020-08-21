@@ -33,8 +33,10 @@ html, body { margin: 0px; padding: 0px }
   color: white;
 }
 
-.body {
+body {
   background-image: url("photos/coding.jpg");
-  background-size: 1920px 1080px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50%
   background-position: center;
 }
