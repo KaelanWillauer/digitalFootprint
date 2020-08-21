@@ -2,7 +2,7 @@ body {
   background-color: white;
 }
 
-html, body { margin: 20px; padding: 20px }
+html, body { margin: 0px; padding: 0px }
 
 /* Add a black background color to the top navigation */
 .topnav {
