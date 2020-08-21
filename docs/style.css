@@ -34,12 +34,18 @@ body, html {
   color: white;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .bg {
   /* The image used */
   background-image: url("photos/coding.jpg");
 
   /* Full height */
-  height: 30%; 
+  height: 100%; 
 
   /* Center and scale the image nicely */
   background-position: center;
