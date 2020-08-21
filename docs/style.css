@@ -33,7 +33,7 @@ html, body { margin: 0px; padding: 0px }
   color: white;
 }
 
-.mainBackground {
+.bg {
   background-image: url("photos/coding.jpg");
   background-size: 1920px 1080px;
   background-repeat: no-repeat;
