@@ -1,8 +1,22 @@
-body {
-  background-color: white;
+body, html {
+  height: 100%;
+  margin: 0;
+  margin: 0px; 
+  padding: 0px;
 }
 
-html, body { margin: 0px; padding: 0px; height 100%;}
+.bg {
+  /* The image used */
+  background-image: url("photos/coding.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -31,12 +45,4 @@ html, body { margin: 0px; padding: 0px; height 100%;}
 .topnav a.active {
   background-color: #2B59C3;
   color: white;
-}
-
-.bg {
-  background-image: url("photos/coding.jpg");
-  background-size: 1920px 1080px;
-  background-repeat: no-repeat;
-  height: 50%;
-  background-position: center;
 }
