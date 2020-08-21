@@ -33,6 +33,6 @@ html, body { margin: 0px; padding: 0px }
   color: white;
 }
 
-.computer {
-  background-position: center;
+body {
+  background-image: "photos/computer.jpg";
 }
