@@ -41,8 +41,6 @@ body, html {
 }
 
 #bg {
-  /* The image used */
-  background-image: url("photos/coding.jpg");
 
   /* Full height */
   height: 100%; 
