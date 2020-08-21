@@ -36,6 +36,6 @@ html, body { margin: 0px; padding: 0px }
 .bg {
   background-size: 1920px 1080px;
   background-repeat: no-repeat;
-  height: 50%;
+  height: 100%;
   background-position: left top;
 }
