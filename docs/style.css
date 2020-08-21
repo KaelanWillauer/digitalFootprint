@@ -54,7 +54,7 @@ body, html {
 }
 
 .text {
-  text.align: center;
+  text.align: right;
   color: white;
   font-size: 30px;
 }
