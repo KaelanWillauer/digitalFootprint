@@ -40,7 +40,7 @@ body, html {
   width: 100%
 }
 
-#bg {
+.mainbg {
 
   /* Full height */
   height: 100%; 
