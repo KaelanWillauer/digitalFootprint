@@ -34,5 +34,5 @@ html, body { margin: 0px; padding: 0px }
 }
 
 body {
-  background-image: "photos/computer.jpg";
+  background-image: url("photos/computer.jpg");
 }
