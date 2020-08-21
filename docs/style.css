@@ -32,3 +32,7 @@ html, body { margin: 0px; padding: 0px }
   background-color: #2B59C3;
   color: white;
 }
+
+.computer {
+  background-position: center;
+}
