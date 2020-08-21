@@ -2,12 +2,13 @@ body {
   background-color: white;
 }
 
+html, body { margin: 20px; padding: 20px }
+
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
   background-color: #7D8491;
   border-radius: 0px 0px 25px 25px;
-  margin: 0px;
 }
 
 /* Style the links inside the navigation bar */
