@@ -34,7 +34,7 @@ html, body { margin: 0px; padding: 0px }
 }
 
 body {
-  background-image: url("photos/coding.jpg") no-repeat;
-  background-size: cover;
+  background-image: url("photos/coding.jpg");
+  background-size: 1920px 1080px, cover;
   background-position: center;
 }
