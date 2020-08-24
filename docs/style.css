@@ -1,4 +1,3 @@
-
 body, html {
   height: 100%;
   margin: 0;
@@ -37,6 +36,17 @@ body, html {
   font-size: 30px;
 }
 
+#mission {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+#projects {
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
 /* Add a black background color to the top navigation */
 #navbar {
   overflow: hidden;
@@ -72,6 +82,20 @@ body, html {
   width: 100%
 }
 
+.fill {
+  /* The image used */
+  background-image: url("photos/coding.jpg");
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -80,4 +104,3 @@ body, html {
   font-size: 30px;
   color: white;
 }
-
