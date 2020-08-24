@@ -84,7 +84,7 @@ body, html {
 
 .fill {
   /* The image used */
-  background-image: url("http://www.multiling.com/wp-content/uploads/2018/07/AdobeStock_199237766-1024x630.jpeg");
+  background-image: url("photos/network.png");
 
   /* Set a specific height */
   min-height: 300px; 
