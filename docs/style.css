@@ -11,7 +11,7 @@ body, html {
   background-image: url("https://jooinn.com/images1280_/coding.jpg");
 
   /* Set a specific height */
-  min-height: 600px; 
+  min-height: 800px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
