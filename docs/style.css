@@ -5,6 +5,10 @@ body, html {
   padding: 0px;
 }
 
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
 .home {
   /* The image used */
   background-image: url("photos/coding.jpg");
