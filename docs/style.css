@@ -5,6 +5,14 @@ body, html {
   padding: 0px;
 }
 
+.content {
+  text-align: left;
+  color: black;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
@@ -38,6 +46,12 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 50px;
+}
+
+#volunteer {
+	padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 30px;
 }
 
 #mission {
