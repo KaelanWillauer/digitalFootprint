@@ -1,0 +1,162 @@
+/* Reset */
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+
+/* w3 formatting */
+
+.w3-left,
+.w3-right,
+.w3-badge {
+    cursor: pointer
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
+}
+
+
+/* Add a black background color to the top navigation */
+
+#navbar {
+    overflow: hidden;
+    background-color: #191923;
+    border-radius: 0px 0px 25px 25px;
+    z-index: 500;
+}
+
+
+/* Style the links inside the navigation bar */
+
+#navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+#navbar a.active {
+    background-color: #2B59C3;
+    color: white;
+}
+
+
+/* Stick navbar to top */
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+
+/* Add image with parallax effect to background */
+
+.home {
+    /* The image used */
+    background-image: url("photos/coding.jpg");
+    /* Set a specific height */
+    min-height: 800px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Main text on main image */
+
+.title {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+}
+
+
+/* Sub text on main image */
+
+.subtitle {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+}
+
+
+/* Padding format on mission */
+
+#mission {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* Slide description */
+
+.description {
+    text-align: left;
+    color: black;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+
+/* Padding format on volunteer */
+
+#volunteer {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+
+/* Padding format on projects */
+
+#projects {
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* An image to fill in extra space on page with parallax effect */
+
+.fill {
+    /* The image used */
+    background-image: url("photos/network.png");
+    /* Set a specific height */
+    min-height: 300px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
