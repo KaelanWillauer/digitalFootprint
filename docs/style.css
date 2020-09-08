@@ -26,6 +26,7 @@ html {
 
 .w3-third {
     text-align: left;
+    text-indent: 50px;
 }
 
 
@@ -152,7 +153,6 @@ html {
 
 .center-third {
     text-align: center;
-    text-indent: 50px;
 }
 
 
