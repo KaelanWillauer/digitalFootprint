@@ -84,7 +84,7 @@ html {
     background-image: url("photos/coding.jpg");
     /* Set a specific height */
     min-height: 800px;
-    /* Create the parallax scrolling effect */
+    /* Create the fixed effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@ html {
 }
 
 
-/* An image to fill in extra space on page with parallax effect */
+/* An image to fill in extra space on page */
 
 .fill {
     /* The image used */
